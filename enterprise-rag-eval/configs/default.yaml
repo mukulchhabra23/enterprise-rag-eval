@@ -1,0 +1,21 @@
+dataset:
+  path: "examples/sample_dataset.json"
+  format: "json"   # json or jsonl
+
+output:
+  dir: "outputs"
+  file: "scores.csv"
+
+judge:
+  mode: "heuristic"   # heuristic | openai
+  model: "gpt-4.1-mini"  # used only when mode=openai
+  temperature: 0.0
+  max_tokens: 600
+
+scoring:
+  # 0-5 integer scale for each metric
+  scale_min: 0
+  scale_max: 5
+
+logging:
+  verbose: true

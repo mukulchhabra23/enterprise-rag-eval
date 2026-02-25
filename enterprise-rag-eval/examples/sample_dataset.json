@@ -1,0 +1,29 @@
+[
+  {
+    "case_id": "CASE-001",
+    "turn_id": "T1",
+    "user_query": "Dell laptop Wi-Fi keeps disconnecting after sleep. How to fix?",
+    "model_answer": "Try updating the Wi-Fi driver, disable 'Allow the computer to turn off this device' in Device Manager, and run Windows Network Troubleshooter. If it persists, update BIOS and power management settings.",
+    "retrieved_contexts": [
+      "To prevent Wi-Fi adapter power save issues: Device Manager > Network adapters > Properties > Power Management > uncheck 'Allow the computer to turn off this device'.",
+      "Dell support recommends updating BIOS and chipset drivers for sleep/hibernate networking issues."
+    ],
+    "metadata": {
+      "product": "Dell Latitude",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "case_id": "CASE-002",
+    "turn_id": "T1",
+    "user_query": "Error 0x80070643 when installing update",
+    "model_answer": "This error can happen for many reasons. You may want to reinstall Windows or contact support.",
+    "retrieved_contexts": [
+      "Error 0x80070643 often relates to .NET Framework or MSI installation failures. Check Windows Update logs and retry after repairing .NET.",
+      "Use DISM and SFC to repair system files before reattempting the update."
+    ],
+    "metadata": {
+      "os": "Windows 10"
+    }
+  }
+]
