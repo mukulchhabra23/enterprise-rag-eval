@@ -16,10 +16,10 @@
   {
     "case_id": "CASE-002",
     "turn_id": "T1",
-    "user_query": "Error 0x80070643 when installing update",
+    "user_query": "Error 0x00011 when installing update",
     "model_answer": "This error can happen for many reasons. You may want to reinstall Windows or contact support.",
     "retrieved_contexts": [
-      "Error 0x80070643 often relates to .NET Framework or MSI installation failures. Check Windows Update logs and retry after repairing .NET.",
+      "Error 0x00011 often relates to .NET Framework or MSI installation failures. Check Windows Update logs and retry after repairing .NET.",
       "Use DISM and SFC to repair system files before reattempting the update."
     ],
     "metadata": {
